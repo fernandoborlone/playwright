@@ -8,7 +8,7 @@ Repositório para estudo do [Playwright](https://playwright.dev/). Um framework 
 
 | Código Exemplo | Descrição | Linguagem |
 |---|---|---|
-| [exercício-01] | Escrever o primeiro teste com o Playwright | Java Script |
+| [exercício-01](https://github.com/fernandoborlone/playwright/blob/exec_1/tests/primeiroTeste.spec.js) | Escrever o primeiro teste com o Playwright | Java Script |
 
 ## Recursos Utilizados
 

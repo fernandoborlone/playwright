@@ -1,0 +1,28 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "Repositório para estudo do Playwright. Um framework de teste E2E Open Source desenvolvido pela Microsoft.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@playwright/test": "^1.15.0",
+    "allure-playwright": "^2.0.0-beta.13"
+  },
+  "scripts": {
+    "allure:report": "allure generate ./allure-results --clean && allure open ./allure-report",
+    "test": "npx playwright test --headed",
+    "test:allure": "npx playwright test --reporter=line,allure-playwright --headed",
+    "test:crhomium": "npx playwright test --browser=chromium --headed",
+    "test:firefox": "npx playwright test --browser=firefox --headed",
+    "test:hl": "npx playwright test",
+    "test:primeiroTeste": "npx playwright test tests/primeiroTeste.spec.js --headed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandoborlone/playwright.git"
+  },
+  "keywords": [],
+  "author": "Fernando Borlone",
+  "license": "MIT",
+  "homepage": "https://github.com/fernandoborlone/playwright#readme"
+}
