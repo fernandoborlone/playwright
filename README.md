@@ -8,9 +8,9 @@ Repositório para estudo do [Playwright](https://playwright.dev/). Um framework 
 
 | Código Exemplo | Descrição | Linguagem |
 |---|---|---|
-| [exercício-01](https://github.com/fernandoborlone/playwright/blob/exec_1/tests/firstTest.spec.js) | Encrevendo o primeiro teste com o Playwright | Java Script |
-| [exercício-02](https://github.com/fernandoborlone/playwright/blob/exec_2/tests/textField.spec.js) | Interagindo com campos do tipo texto | Java Script |
-| [exercício-03](https://github.com/fernandoborlone/playwright/blob/exec_2/tests/dropdownList.spec.js) | Interagindo com elementos do tipo select | Java Script |
+| [exercício-01](https://github.com/fernandoborlone/playwright/blob/exec_3/tests/firstTest.spec.js) | Encrevendo o primeiro teste com o Playwright | Java Script |
+| [exercício-02](https://github.com/fernandoborlone/playwright/blob/exec_3/tests/textField.spec.js) | Interagindo com campos do tipo texto | Java Script |
+| [exercício-03](https://github.com/fernandoborlone/playwright/blob/exec_3/tests/dropdownList.spec.js) | Interagindo com elementos do tipo select | Java Script |
 ## Recursos Utilizados
 
 * [Playwright](https://www.npmjs.com/package/playwright)
