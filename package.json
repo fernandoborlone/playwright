@@ -15,6 +15,7 @@
     "test:crhomium": "npx playwright test --browser=chromium --headed",
     "test:firefox": "npx playwright test --browser=firefox --headed",
     "test:hl": "npx playwright test",
+    "test:preencheFormulario": "npx playwright test tests/preencherFormulario.spec.js --headed",
     "test:primeiroTeste": "npx playwright test tests/primeiroTeste.spec.js --headed"
   },
   "repository": {
