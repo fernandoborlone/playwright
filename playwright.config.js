@@ -9,12 +9,12 @@ const config = {
       ['json', {  outputFile: 'test-results.json' }]
     ],
     use: {
-      headless: false,
+      //headless: false,
       viewport: { width: 1280, height: 720 },
       ignoreHTTPSErrors: true,
       video: 'on',
       baseURL: 'https://www.argoit.com.br/',
-      browserName: 'firefox',
+      //browserName: 'firefox',
       screenshot: 'on',
   
     }

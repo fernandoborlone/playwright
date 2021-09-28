@@ -2,7 +2,7 @@
  * Arquivo: primeiroTeste.spec.js
  * Data: 27/09/2021
  * Descrição: Primeiro teste com playwright
- * Autora: Fernando Borlone
+ * Autor: Fernando Borlone
  * LinkedIn: <https://www.linkedin.com/in/fernandoborlone/>
  */
 

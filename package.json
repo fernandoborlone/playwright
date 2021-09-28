@@ -9,11 +9,13 @@
     "allure-playwright": "^2.0.0-beta.13"
   },
   "scripts": {
-    "test:hl": "tests",
-    "test:primeiroTeste": "npx playwright test tests/primeiroTeste.spec.js --headed",
+    "allure:report": "allure generate ./allure-results --clean && allure open ./allure-report",
+    "test": "npx playwright test --headed",
+    "test:allure": "npx playwright test --reporter=line,allure-playwright --headed",
     "test:crhomium": "npx playwright test --browser=chromium --headed",
-    "test:allure": "npx playwright test --reporter=line,allure-playwright",
-    "allure:report": "allure generate ./allure-results --clean && allure open ./allure-report"
+    "test:firefox": "npx playwright test --browser=firefox --headed",
+    "test:hl": "npx playwright test",
+    "test:primeiroTeste": "npx playwright test tests/primeiroTeste.spec.js --headed"
   },
   "repository": {
     "type": "git",
@@ -22,8 +24,5 @@
   "keywords": [],
   "author": "Fernando Borlone",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/fernandoborlone/playwright/issues"
-  },
   "homepage": "https://github.com/fernandoborlone/playwright#readme"
 }
