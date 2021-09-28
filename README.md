@@ -22,4 +22,4 @@ Repositório para estudo do [Playwright](https://playwright.dev/). Um framework 
 * [page.type](https://playwright.dev/docs/api/class-page#page-type)
 * [page.fill](https://playwright.dev/docs/api/class-page#page-fill)
 * [Tutorial Playwright with JavaScript da TAU](https://testautomationu.applitools.com/js-playwright-tutorial/)
-
+* [Github da Glaucia Lemos](https://github.com/glaucia86)
