@@ -13,7 +13,6 @@ Repositório para estudo do [Playwright](https://playwright.dev/). Um framework 
 ## Recursos Utilizados
 
 * [Playwright](https://www.npmjs.com/package/playwright)
-* [Node.js](https://nodejs.org/en/)
 * [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=javascript-26994-gllemos)
 
 ## Referências utilizadas 
