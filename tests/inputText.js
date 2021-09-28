@@ -1,5 +1,5 @@
 /**
- * Arquivo: preencherFormulario.spec.js
+ * Arquivo: inputText.spec.js
  * Data: 28/09/2021
  * Descrição: Interagir com campos do tipo texto
  * Autor: Fernando Borlone

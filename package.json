@@ -15,8 +15,9 @@
     "test:crhomium": "npx playwright test --browser=chromium --headed",
     "test:firefox": "npx playwright test --browser=firefox --headed",
     "test:hl": "npx playwright test",
-    "test:preencheFormulario": "npx playwright test tests/preencherFormulario.spec.js --headed",
-    "test:primeiroTeste": "npx playwright test tests/primeiroTeste.spec.js --headed"
+    "test:inputText": "npx playwright test tests/preencherFormulario.spec.js --headed",
+    "test:firstTest": "npx playwright test tests/firstTest.spec.js --headed",
+    "test:dropdownList": "npx playwright test tests/dropdownList.spec.js --headed"
   },
   "repository": {
     "type": "git",
