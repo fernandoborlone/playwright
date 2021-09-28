@@ -1,3 +1,11 @@
+/**
+ * Arquivo: primeiroTeste.spec.js
+ * Data: 27/09/2021
+ * Descrição: Primeiro teste com playwright
+ * Autora: Fernando Borlone
+ * LinkedIn: <https://www.linkedin.com/in/fernandoborlone/>
+ */
+
 const { test, expect } = require('@playwright/test');
 
 test('Primeiro teste com playwright', async ({ page }) => {
