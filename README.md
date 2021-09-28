@@ -9,7 +9,7 @@ Repositório para estudo do [Playwright](https://playwright.dev/). Um framework 
 | Código Exemplo | Descrição | Linguagem |
 |---|---|---|
 | [exercício-01](https://github.com/fernandoborlone/playwright/blob/exec_1/tests/primeiroTeste.spec.js) | Escrever o primeiro teste com o Playwright | Java Script |
-
+| [exercício-02](https://github.com/fernandoborlone/playwright/blob/exec_2/tests/preencherFormulario.spec.js) | Interagir com campos do tipo texto | Java Script |
 ## Recursos Utilizados
 
 * [Playwright](https://www.npmjs.com/package/playwright)
@@ -19,6 +19,7 @@ Repositório para estudo do [Playwright](https://playwright.dev/). Um framework 
 ## Referências utilizadas 
 
 * [Documentação Oficial do Playwright](https://playwright.dev/docs/intro)
-* [Github da Glaucia Lemos](https://github.com/glaucia86)
+* [page.type](https://playwright.dev/docs/api/class-page#page-type)
+* [page.fill](https://playwright.dev/docs/api/class-page#page-fill)
 * [Tutorial Playwright with JavaScript da TAU](https://testautomationu.applitools.com/js-playwright-tutorial/)
 
