@@ -1,12 +1,13 @@
 {
-  "name": "playwright",
+  "name": "playwright_test",
   "version": "1.0.0",
   "description": "Repositório para estudo do Playwright. Um framework de teste E2E Open Source desenvolvido pela Microsoft.",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
     "@playwright/test": "^1.15.0",
-    "allure-playwright": "^2.0.0-beta.13"
+    "allure-playwright": "^2.0.0-beta.13",
+    "playwright": "^1.15.1"
   },
   "scripts": {
     "allure:report": "allure generate ./allure-results --clean && allure open ./allure-report",
@@ -17,8 +18,8 @@
     "test:hl": "npx playwright test",
     "test:inputText": "npx playwright test tests/inputText.spec.js --headed",
     "test:firstTest": "npx playwright test tests/firstTest.spec.js --headed",
-    "test:dropdownList": "npx playwright test tests/dropdownList.spec.js --headed"
-
+    "test:dropdownList": "npx playwright test tests/dropdownList.spec.js --headed",
+    "test:search": "npx playwright test tests/search.spec.js --headed"
   },
   "repository": {
     "type": "git",
