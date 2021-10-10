@@ -1,7 +1,7 @@
 /**
  * Arquivo: textField.spec.js
  * Data: 28/09/2021
- * Descrição: Interagir com campos do tipo texto
+ * Descrição: Interagir com elementos do tipo inputText
  * Autor: Fernando Borlone
  * LinkedIn: <https://www.linkedin.com/in/fernandoborlone/>
  */
